@@ -10,16 +10,16 @@ const Projectpage = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 mt-10 md:mt-40">
         <div className="h-[400px] w-full flex items-center justify-center ">
           <PinContainer
-            title="/ui.aceternity.com"
-            href="https://twitter.com/mannupaaji"
+            title="eEcommerce-1"
+            href="https://github.com/rockeyrai/Ecommerce-1"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                Aceternity UI
+              eEcommerce-1
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-500 ">
-                  Customizable Tailwind CSS and Framer Motion Components.
+                This is my first eCommerce project built using the MERN stack.
                 </span>
               </div>
               <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
@@ -28,16 +28,16 @@ const Projectpage = () => {
         </div>
         <div className="h-[400px] w-full flex items-center justify-center ">
           <PinContainer
-            title="/ui.aceternity.com"
-            href="https://twitter.com/mannupaaji"
+            title="playGround"
+            href="https://github.com/rockeyrai/playGround"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                Aceternity UI
+              playGround
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-500 ">
-                  Customizable Tailwind CSS and Framer Motion Components.
+                To enhance my side project and deepen my understanding of the MERN stack.
                 </span>
               </div>
               <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
@@ -46,17 +46,16 @@ const Projectpage = () => {
         </div>
         <div className="h-[400px] w-full flex items-center justify-center ">
           <PinContainer
-            title="/ui.aceternity.com"
-            href="https://twitter.com/mannupaaji"
+            title="WorkoutTracker"
+            href="https://github.com/rockeyrai/WorkoutTracker"
           >
             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                Aceternity UI
+              WorkoutTracker
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
                 <span className="text-slate-500 ">
-                  Customizable Tailwind CSS and Framer Motion Components.
-                </span>
+                To effectively track workout progress and help achieve desired physical goal.                </span>
               </div>
               <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
             </div>
