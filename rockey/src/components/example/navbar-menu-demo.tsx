@@ -23,10 +23,9 @@ function Navbar({ className }: { className?: string }) {
         <Link   href='/'>Home</Link>
         <MenuItem href="http://localhost:3000/education" setActive={setActive} active={active} item="Education">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">School Leaving </HoveredLink>
-            <HoveredLink href="/individual">Collage</HoveredLink>
-            <HoveredLink href="/team">Book</HoveredLink>
-            <HoveredLink href="/enterprise">Entertainment</HoveredLink>
+            <HoveredLink href="http://localhost:3000/education">Bachelor </HoveredLink>
+            <HoveredLink href="http://localhost:3000/education">SLC</HoveredLink>
+            <HoveredLink href="http://localhost:3000/education">SEE</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem href="http://localhost:3000/project" setActive={setActive}  active={active} item="Project">
@@ -47,16 +46,17 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <MenuItem href="http://localhost:3000/helath" setActive={setActive} active={active} item="Health">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Physical</HoveredLink>
-            <HoveredLink href="/individual">Mental</HoveredLink>
+            <HoveredLink href="http://localhost:3000/helath">Physical</HoveredLink>
+            <HoveredLink href="http://localhost:3000/helath">Mental</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem href="http://localhost:3000/extra" setActive={setActive} active={active} item="Extra">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Game</HoveredLink>
-            <HoveredLink href="/team">Book</HoveredLink>
-            <HoveredLink href="/enterprise">Entertainment</HoveredLink>
+            <HoveredLink href="http://localhost:3000/extra">Song</HoveredLink>
+            <HoveredLink href="http://localhost:3000/extra">Game</HoveredLink>
+            <HoveredLink href="http://localhost:3000/extra">Book</HoveredLink>
+            <HoveredLink href="http://localhost:3000/extra">Movie & Series</HoveredLink>
+            <HoveredLink href="http://localhost:3000/extra">Art</HoveredLink>
           </div>
         </MenuItem>
       </Menu>
