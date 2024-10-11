@@ -34,45 +34,45 @@ export default function BentoGridDemo() {
 // );
 const items = [
   {
-    title: "The Dawn of Innovation",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    title: "Songs",
+    description: "Collection of Songs that I perfer to listen. ",
 
     // icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
     href:'/',
-    src:'398370146_1030009404969682_7618860168817513939_n.jpg'
+    src:'ab67616d0000b2730cf1e9f4c93ec0fd60f1fe7e.jpg'
   },
   {
-    title: "The Digital Revolution",
-    description: "Dive into the transformative power of technology.",
+    title: "Games",
+    description: "Collection of Games I have played till now.",
 
     // icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     href:'/',
-        src:'./398370146_1030009404969682_7618860168817513939_n.png'
+        src:'pubg.png'
   },
   {
-    title: "The Art of Design",
-    description: "Discover the beauty of thoughtful and functional design.",
+    title: "Books",
+    description: "list of book I have read and recomend.",
 
     // icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     href:'/',
-        src:'398370146_1030009404969682_7618860168817513939_n.png'
+        src:'455bd7.png'
   },
   {
-    title: "The Power of Communication",
+    title: "Movie & Series",
     description:
-      "Understand the impact of effective communication in our lives.",
+      "list of move and series that i like and recomend to other. It includes mix language, Anime, Drama, Document",
 
     // icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
     href:'/',
-        src:'398370146_1030009404969682_7618860168817513939_n.png'
+        src:'1324016.jpeg'
   },
   {
-    title: "The Pursuit of Knowledge",
-    description: "Join the quest for understanding and enlightenment.",
+    title: "Art",
+    description: "Some of my Drawing i have drawn.",
     // header: <Skeleton />,
     // icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
     href:'/',
-     src:'398370146_1030009404969682_7618860168817513939_n.png'
+     src:'20190417_175932.jpg'
   },
 
 ];
