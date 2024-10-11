@@ -9,21 +9,33 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
   {
-    title: "Stripe",
+    title: "Bachelor",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+    <>
+  College: Janadhar Community Campus <br />
+    Faculty: Management (BBS) <br />
+    Pass Year: Currently 2nd Year
+  </>,
     link: "https://stripe.com",
   },
   {
-    title: "Netflix",
+    title: "School Leaving Certificate",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+    <>
+    College: Janasewa Secondary School <br />
+    Faculty: Science<br />
+    Pass Year: 2079 BS
+  </>,
     link: "https://netflix.com",
   },
   {
-    title: "Google",
+    title: "Secondary Education Examination",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
+    <>
+    College: Janasewa Secondary School <br />
+    Faculty: SEE <br />
+    Pass Year: 2076 BS
+  </>,
     link: "https://google.com",
   },
 ];
