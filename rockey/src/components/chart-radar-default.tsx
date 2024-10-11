@@ -41,15 +41,15 @@ export function ComponentPhysic() {
   return (
     <Card>
       <CardHeader className="items-center pb-4">
-        <CardTitle>Radar Chart</CardTitle>
+        <CardTitle>Physical Radar Chart</CardTitle>
         <CardDescription>
-          Showing total visitors for the last 6 sectore
+          Showing stats of my Physic in percent.
         </CardDescription>
       </CardHeader>
       <CardContent className="pb-5">
         <ChartContainer
           config={chartConfig}
-          className="mx-auto bg-red-200 max-h-[450px] max-w-[500px] "
+          className="mx-auto max-h-[450px] max-w-[500px] "
         >
           <RadarChart data={chartData}>
             <ChartTooltip cursor={false} content={<ChartTooltipContent />} />
@@ -58,7 +58,7 @@ export function ComponentPhysic() {
             <Radar
               dataKey="percentage"
               fill="var(--color-percentage)"
-              fillOpacity={0.5}
+              fillOpacity={0.7}
             />
           </RadarChart>
         </ChartContainer>

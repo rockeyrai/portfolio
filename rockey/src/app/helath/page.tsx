@@ -4,7 +4,7 @@ import React from "react";
 
 const Helathpage = () => {
   return (
-    <div className="w-ful bg-gradient-to-br from-green-200 via-green-500 to-green-200 h-auto lg:h-[100vh]">
+    <div className="w-ful bg-gradient-to-br from-green-600 via-green-400 to-green-300 h-auto lg:h-[100vh]">
       <NavbarDemo />
       <div className="mt-40 lg:flex  h-auto md:px-20 w-full">
         <div className="lg:w-[60%] justify-center gap-5 flex">

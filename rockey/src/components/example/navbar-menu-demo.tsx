@@ -32,16 +32,16 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem href="http://localhost:3000/project" setActive={setActive}  active={active} item="Project">
           <div className="  text-sm grid md:grid-cols-2 grid-cols-1 gap-10 p-4">
             <ProductItem 
-              title="Algochurn"
-              href="https://algochurn.com"
-              src="/"
-              description="Prepare for tech interviews like never before."
+              title="GitHub"
+              href="https://github.com/rockeyrai"
+              src="/20220207_124423.jpg"
+              description="GitHub site to my personal project "
             />
             <ProductItem
-              title="Tailwind Master Kit"
-              href="https://tailwindmasterkit.com"
+              title="eEcommerce-1"
+              href="https://github.com/rockeyrai/Ecommerce-1"
               src="/"
-              description="Production ready Tailwind css components for your next project"
+              description="This is my first eCommerce project built using the MERN stack."
             />
           </div>
         </MenuItem>
